@@ -108,8 +108,35 @@ button {
 }
 
 .subtext {
+    margin-top: 10px;
     color: #1F2937;
     text-align: center;
+}
+
+.section-two {
+    padding: 70px 0px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    width: 750px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+    align-self: flex-end;
 }
 
 .footer {
